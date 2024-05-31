@@ -3,4 +3,7 @@
 // it first runs the handlers on that element,
 // then on its parent, then up through its ancestors in the hierarchy, until it reaches the root of the document.
 
-//
+// Event capturing is just opposite of event bubbling.
+
+// Event Delegation: Attaching a single event listener to a parent element instead of
+//  multiple listeners to each child element.
